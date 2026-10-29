@@ -1,0 +1,19 @@
+{
+  "name": "bless-server",
+  "version": "1.0.0",
+  "private": true,
+  "description": "BLESS standalone shop backend (Express + PostgreSQL) with admin panel",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "seed": "node src/seed.js"
+  },
+  "engines": {
+    "node": "22.x"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "multer": "^2.0.0",
+    "pg": "^8.13.1"
+  }
+}

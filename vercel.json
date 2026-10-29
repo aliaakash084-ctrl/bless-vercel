@@ -1,0 +1,4 @@
+{
+  "functions": { "api/index.js": { "includeFiles": "{admin,public,seed-data.json}/**", "maxDuration": 30 } },
+  "rewrites": [ { "source": "/(.*)", "destination": "/api/index" } ]
+}
